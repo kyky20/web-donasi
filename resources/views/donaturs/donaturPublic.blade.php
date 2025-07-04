@@ -40,34 +40,8 @@
     </div>
 
     {{-- FOOTER --}}
-    <footer class="bg-light text-center text-lg-start mt-5 pt-4 border-top">
-        <div class="container p-4">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-4 text-left">
-                    <h5 class="text-uppercase">Donasi Yo</h5>
-                    <p>Donasi Yo adalah platform peduli bencana & sosial di Indonesia. Mari bersama-sama membantu sesama
-                        dan menciptakan perubahan positif.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 text-left">
-                    <h5 class="text-uppercase">Navigasi</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="/" class="text-dark">Beranda</a></li>
-                        <li><a href="/donasi" class="text-dark">Donasi</a></li>
-                        <li><a href="/donatur" class="text-dark">Donatur</a></li>
-                        <li><a href="/session" class="text-dark">Login</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 text-left">
-                    <h5 class="text-uppercase">Kontak</h5>
-                    <ul class="list-unstyled">
-                        <li><i class="fas fa-envelope mr-2"></i> info@donasikita.com</li>
-                        <!-- <li><i class="fas fa-phone mr-2"></i> +62 812-3456-7890</li>
-                                <li><i class="fas fa-map-marker-alt mr-2"></i> Jakarta, Indonesia</li> -->
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="text-center p-3 bg-light text-lg-start" style="font-size: 0.9rem;">
+    <footer class="bg-light text-center text-lg-start mt-3 pt-3 border-top">
+        <div class="text-center px-3 py-2" style="font-size: 0.9rem;">
             © {{ date('Y') }} Donasi Yo. All rights reserved.
         </div>
     </footer>

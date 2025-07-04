@@ -103,10 +103,7 @@
     <div class="container mt-5 mb-5 fade-in text-center">
         <h3>Bersama Kita Bisa Lebih Kuat</h3>
         <p>Ayo bergabung menjadi bagian dari perubahan. Mari bantu saudara kita yang sedang kesulitan.</p>
-        <form method="POST" action="{{ route('gabung.cek') }}">
-            @csrf
-            <button type="submit" class="btn btn-primary btn-lg mt-3">Gabung Sekarang</button>
-        </form>
+        <a href="{{ route('gabung.cek') }}" class="btn btn-primary btn-lg mt-3">Gabung Sekarang</a>
     </div>
 
     {{-- FOOTER --}}

@@ -43,9 +43,9 @@ Route::post('/session/create', [SessionController::class, 'create']);
 Route::get('/session/logout', [SessionController::class, 'logout']);
 
 // Cek Gabung
-Route::post('/gabung-cek', function () {
+Route::get('/gabung-cek', function () {
     if (!Auth::check()) {
-        return redirect('/login')->with('info', 'Silakan login atau daftar untuk bergabung.');
+        return redirect('/session/register')->with('info', 'Silakan login atau daftar untuk bergabung.');
     }
     return redirect()->route('gabung.status');
 })->name('gabung.cek');
